@@ -7,38 +7,37 @@ import jakarta.persistence.Id;
 
 @Entity
 public class EmployeeData {
-    public EmployeeData(EmployeeDto employeeDto) {
+    public EmployeeData() {
     }
 
     @Id
     @GeneratedValue
-    private int emp_id;
+    private long emp_id;
     private String name;
     private double salary;
 
-    public EmployeeData(EmployeeData employeeData){
-        this.name=employeeData.name;
-        this.salary=employeeData.salary;
-    }
-
-    public EmployeeData(String name, double salary) {
-        this.name = name;
-        this.salary = salary;
+    public EmployeeData(EmployeeDto employeeDto){
+        this.name=employeeDto.name;
+        this.salary=employeeDto.salary;
     }
 
     public String getName() {
+
         return name;
     }
 
     public void setName(String name) {
+
         this.name = name;
     }
 
     public double getSalary() {
+
         return salary;
     }
 
     public void setSalary(double salary) {
+
         this.salary = salary;
     }
 

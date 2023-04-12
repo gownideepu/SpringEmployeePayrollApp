@@ -13,10 +13,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class EmployeeController {
 
     @Autowired
-    private MyEmployeeService employeeService;
+    private MyEmployeeService myEmployeeService;
     @PostMapping("/add")
     public ResponseDto addEmployee(@RequestBody EmployeeDto employeeDto) {
-        EmployeeData employeeData = employeeService.addEmployee(employeeDto);
+        EmployeeData employeeData = myEmployeeService.addEmployee(employeeDto);
         ResponseDto responseDto=new ResponseDto("data added successfully",employeeData);
         return responseDto;
     }
