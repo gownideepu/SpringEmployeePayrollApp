@@ -9,7 +9,6 @@ import jakarta.persistence.Id;
 public class EmployeeData {
     public EmployeeData() {
     }
-
     @Id
     @GeneratedValue
     private long emp_id;
