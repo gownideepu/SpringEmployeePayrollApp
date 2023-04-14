@@ -1,0 +1,27 @@
+2023-04-14T08:20:05.953+05:30  INFO 16752 --- [restartedMain] c.b.E.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 20 with PID 16752 (D:\java spring boot\EmployeePayrollApp\target\classes started by Deepthi in D:\java spring boot\EmployeePayrollApp)
+2023-04-14T08:20:05.956+05:30  INFO 16752 --- [restartedMain] c.b.E.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-04-14T08:20:06.018+05:30  INFO 16752 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-14T08:20:06.018+05:30  INFO 16752 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-14T08:20:06.859+05:30  INFO 16752 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-14T08:20:06.964+05:30  INFO 16752 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90 ms. Found 1 JPA repository interfaces.
+2023-04-14T08:20:07.733+05:30  INFO 16752 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-14T08:20:07.748+05:30  INFO 16752 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-14T08:20:07.748+05:30  INFO 16752 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-14T08:20:07.817+05:30  INFO 16752 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-14T08:20:07.818+05:30  INFO 16752 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1799 ms
+2023-04-14T08:20:08.062+05:30  INFO 16752 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-14T08:20:08.127+05:30  INFO 16752 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-14T08:20:08.471+05:30  INFO 16752 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-14T08:20:09.012+05:30  INFO 16752 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@26818568
+2023-04-14T08:20:09.014+05:30  INFO 16752 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-14T08:20:09.102+05:30  INFO 16752 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-14T08:20:09.951+05:30  INFO 16752 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-14T08:20:09.960+05:30  INFO 16752 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-14T08:20:10.270+05:30  WARN 16752 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-14T08:20:10.663+05:30  INFO 16752 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-14T08:20:10.709+05:30  INFO 16752 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-14T08:20:10.722+05:30  INFO 16752 --- [restartedMain] c.b.E.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 5.257 seconds (process running for 8.937)
+2023-04-14T08:20:10.725+05:30  INFO 16752 --- [restartedMain] c.b.E.EmployeePayrollAppApplication      : Application is started
+2023-04-14T08:36:08.777+05:30  INFO 16752 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-14T08:36:08.782+05:30  INFO 16752 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-14T08:36:08.794+05:30  INFO 16752 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
