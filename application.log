@@ -22,3 +22,6 @@
 2023-04-14T08:20:10.709+05:30  INFO 16752 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2023-04-14T08:20:10.722+05:30  INFO 16752 --- [restartedMain] c.b.E.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 5.257 seconds (process running for 8.937)
 2023-04-14T08:20:10.725+05:30  INFO 16752 --- [restartedMain] c.b.E.EmployeePayrollAppApplication      : Application is started
+2023-04-14T08:36:08.777+05:30  INFO 16752 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-14T08:36:08.782+05:30  INFO 16752 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-14T08:36:08.794+05:30  INFO 16752 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
