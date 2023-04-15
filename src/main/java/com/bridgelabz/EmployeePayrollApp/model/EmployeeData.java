@@ -28,7 +28,10 @@ public class EmployeeData {
     private String note;
 
     private String phoneNumber;
-    public EmployeeData(EmployeeDto empData){
+    public EmployeeData(EmployeeDto empDto) {
+        this.updateEmpData(empDto);
+    }
+    public void updateEmpData(EmployeeDto empData){
         this.name=empData.getName();
         this.salary= empData.getSalary();
         this.gender=empData.getGender();

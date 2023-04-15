@@ -4,12 +4,13 @@ import com.bridgelabz.EmployeePayrollApp.Dto.EmployeeDto;
 import com.bridgelabz.EmployeePayrollApp.model.EmployeeData;
 
 import java.util.List;
-import java.util.Optional;
 
 public interface MyEmployeeService {
     EmployeeData addEmployee(EmployeeDto employeeDto);
 
-    Optional<EmployeeData> getEmployeeById(int id);
+    EmployeeData getEmployeeById(int id);
 
     List<EmployeeData> getAllEmployee();
+    void delete(int id);
+    EmployeeData UpdateEmployee(int id ,EmployeeDto empDto);
 }
