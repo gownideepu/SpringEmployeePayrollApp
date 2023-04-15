@@ -1,9 +1,7 @@
 package com.bridgelabz.EmployeePayrollApp.model;
 
 import com.bridgelabz.EmployeePayrollApp.Dto.EmployeeDto;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.*;
 
 import java.time.LocalDate;
@@ -13,6 +11,8 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 public class EmployeeData {
+    @ElementCollection
+    @CollectionTable(name = "emp_Dept",joinColumns = @JoinColumn(name = "empId"))
     private List<String> department;
     @Id
     @GeneratedValue
